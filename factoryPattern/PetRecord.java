@@ -5,6 +5,14 @@ public class PetRecord {
     private String petName;
     private Pet pet;
 
+    public PetRecord() {}
+
+    public PetRecord(String petId, String petName, Pet pet) {
+        this.petId = petId;
+        this.petName = petName;
+        this.pet = pet;
+    }
+
     public String getPetId() {
         return petId;
     }
